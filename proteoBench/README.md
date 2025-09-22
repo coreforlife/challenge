@@ -1,6 +1,7 @@
 # Core for Life - ProteoBench Challenge
 
 ## Project Overview
+- https://docs.google.com/presentation/d/17_OX19pvRgA-vjVIImK9PiMZWyLbNZzAkz0nPy_ti_8/edit?usp=sharing
 - **Applied:** 2024
 - **Funding:** 16k CHF
 - **Primary use:** Hackathon with support from Pasteur 
