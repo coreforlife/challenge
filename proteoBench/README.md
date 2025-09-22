@@ -11,6 +11,7 @@
 - **Date:** May 19-23, 2025
 - **Link:** https://lnkd.in/p/emWd4Gdv
 - **Groups:** Two working groups ...
+- https://fgcz-ms.uzh.ch/~cpanse/2025-05-21-EuBIC-MS--C4L-proteoBenchHackathon.jpeg
 
 ## Sample Analysis
 New samples derived by CRG and VIB:
