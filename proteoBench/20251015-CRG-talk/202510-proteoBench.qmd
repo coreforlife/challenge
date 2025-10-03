@@ -1,53 +1,112 @@
 ---
-title: "C4L proteoBench Challenge"
-subtitle: ""
-author: An Stas | Mariette MATONDO | Christian Panse
+title: "ProteoBench"
+subtitle: "core for life - challenge"
+author: An Stas | Mariette Matondo | Christian Panse
 date: now
 format:
   revealjs:
     slide-number: true
     embed-resources: true
     preview-links: auto
-    logo: fgcz-cropped.svg
-    css: styles.css
-    footer: <https://fgcz.ch>
+    logo: https://fgcz-ms.uzh.ch/~cpanse/ProteoBenchChallenge/core4life_small.png
+    footer: ProteoBench challenge
     title-slide-attributes:
       data-background-size: cover
-      data-background-color: "#43464B"
 ---
 
-# Past
+# Imagine
 
-## Imagine ...
+## ...
 
-left show plot with single dot on  id ~ error - with one dot
-right Garey and Johnson 2
+::: {.columns}
+::: {.column width="50%"}
+![](https://fgcz-ms.uzh.ch/~cpanse/ProteoBenchChallenge/SP1.jpg)
+:::
 
-## Would it be nice ...
+::: {.notes}
+:::
 
-left plot id ~ error - with all dots
-right Garey and Johnson 3
+::: {.column width="50%"}
+![](https://fgcz-ms.uzh.ch/~cpanse/ProteoBenchChallenge/gj1.gif)
+:::
+:::
+''I can’t quantify more proteins, I guess I’m just too dumb.''
 
-## Proteobench
+::: {.notes}
+:::
 
-show old plot if module, from a presentation
+## ...
+
+::: {.columns}
+::: {.column width="50%"}
+![](https://fgcz-ms.uzh.ch/~cpanse/ProteoBenchChallenge/SP1.jpg)
+:::
+
+::: {.column width="50%"}
+![](https://fgcz-ms.uzh.ch/~cpanse/ProteoBenchChallenge/gj2.gif)
+:::
+:::
+''I can’t quantify more proteins, because that is not possible.''
+
+::: {.notes}
+Unfort., proving inherent intractability can just as hard as finding a solution.
+Imagine there would an open and collaborative platform for community-curated benchmarks for proteomics data analysis pipelines.
+:::
+
+## ...
+
+::: {.columns}
+::: {.column width="50%"}
+![](https://fgcz-ms.uzh.ch/~cpanse/ProteoBenchChallenge/SP2.jpg)
+:::
+::: {.column width="50%"}
+![](https://fgcz-ms.uzh.ch/~cpanse/ProteoBenchChallenge/gj3.gif)
+:::
+:::
+''I can’t quantify more proteins, but neither can all these famous people.''
+
+::: footer
+source: ProteoBench | Garey and Johnson, Computers and Intractability: A Guide to the Theory of NP-Completeness , 1979
+:::
+
+## ProteoBench
+![](https://fgcz-ms.uzh.ch/~cpanse/ProteoBenchChallenge/__Screenshot_2024-04-18_at_13.49.19.jpg)
+::: footer
+2024-04-18_at_13.49.19
+:::
 
 ## Life Demo 2
 
 - show download page
-- "anlalyse data"
+- "analyse data"
 
 ## Goals
 
-stimmulate MS community for benchmark using 
+- stimulate proteomics community for using benchmark 
 
-utilize proteoBench community
+- utilize ProteoBench community
 
-contributing to proteoBench community requesting supporting more modules .... 
+- contributing to ProteoBench community requesting supporting more modules .... 
+
+# Timeline
+
+## Zurich C4L: Planning the hackathon 
+![](https://fgcz-ms.uzh.ch/~cpanse/ProteoBenchChallenge/WEW_IMG_7756.jpg)
+
+## Zurich C4L meeting: Tram heading to KafiSchnaps
+::: footer
+agree to meassure to samples on two new instruments: Astral (CRG) and Bruker Ultraflex(FGCZ)
+:::
+
+![](https://fgcz-ms.uzh.ch/~cpanse/ProteoBenchChallenge/Tram_zurich.jpg)
+
+## Zurich C4L meeting: @ KafiSchnaps
+
+![](https://fgcz-ms.uzh.ch/~cpanse/ProteoBenchChallenge/KS_IMG_7762.jpg)
 
 ## Timeline
 - June 2024 notification
-- 2024 November C4L meeting Zurich  - meassure new samples: ASTRAL, BrukerUltraflex
+- 2024 November C4L meeting Zurich  - measure new samples: ASTRAL, BrukerUltraflex
 - develop new modules for DIA
 - 2025 May  hackathon
 - 2025 June - EuPA (picture from Marie)
@@ -62,56 +121,123 @@ contributing to proteoBench community requesting supporting more modules ....
 
 # What has been done?
 
-## Promises
+## Deliveries {.smaller}
 
-- join the EuBIC-MS proteobench community
-- 2x eight dots for DIA DDA
-- ... 
-- EUPA
-- HUPO Poster BioInf Hub session
+::: {.columns } 
+::: {.column width="50%"}
+Promised 
+
+* join the EuBIC-MS proteobench community
+* 2x eight dots for DIA DDA
+* ... 
+* EuPA
+* HUPO Poster BioInf Hub session
+:::
+::: {.column width="50%"}
+::: {.incremental}
+for free
+
+* new instrument data for benchmark samples
+  + ASTRAL data
+  + ULTRA data
+
+* modules
+  + DIA QExactive
+  + DIA Orbitrap Astral
+  + DIA PASEF
+
+* C4L co-authors on the paper
+* workshop on Belgian Proteomics Ass(BPA)
+:::
+:::
+:::
 
 
-## not Promises
+# Hackathon statistics
 
-left right (C4L contrib)
-- ASTRAL data
-- ULTRA data
+## Participants
 
-- modules
- - DIA QEx
- - ASTRAL DIA
- - DIA PASEF
-- C4L co-authors on the paper
-- proteoBench workshop on BPA (Belgian Proteomics Ass)
+```{eval=FALSE}
+cp@xerxes:~/src/github/core4life/challenge/proteoBench/20251015-CRG-talk/ > awk -F'@' 'NR>1{print $NF}' < email.txt|sort|uniq -c|sort -gr
+   5 ugent.be
+   2 fgcz.ethz.ch
+   1 vib-ugent.be
+   1 universite-paris-saclay.fr
+   1 uantwerpen.be
+   1 rub.de
+   1 pasteur.fr
+   1 ipbs.fr
+   1 hotmail.com
+   1 embl.de
+   1 dtu.dk
+   1 dkfz-heidelberg.de
+   1 cpr.ku.dk
+   1 bmb.sdu.dk
+   1 UGent.be
+```
 
-# Hackathon
+## Number of commits during ...
 
-## Hackathon participation
+```{eval=FALSE}
+cp@xerxes:~/src/github.com/ProteoBench/ProteoBench/ > git log|grep Date| awk '{print $3" "$6}'|uniq -c                                                     
+   1 Oct 2025
+  33 Sep 2025
+  76 Aug 2025
+ 146 Jul 2025
+  95 Jun 2025
+ 336 May 2025
+  92 Apr 2025
+  94 Mar 2025
+   3 Feb 2025
+   7 Mar 2025
+  58 Feb 2025
+ 144 Jan 2025
+ 218 Dec 2024
+ 112 Nov 2024
+  35 Oct 2024
+ 272 Sep 2024
+  29 Aug 2024
+  58 Jul 2024
+  10 Jun 2024
+  53 May 2024
+  36 Apr 2024
+  75 Mar 2024
+  89 Feb 2024
+  96 Jan 2024
+ 121 Dec 2023
+  73 Nov 2023
+  19 Oct 2023
+ 115 Sep 2023
+   9 Aug 2023
+   4 Jul 2023
+   6 Jun 2023
+   1 Mar 2023
+   3 Jun 2023
+   1 May 2023
+  13 Apr 2023
+   4 Mar 2023
+ 173 Feb 2023
+   4 Jan 2023
+```
 
-some statistics
+# Life Demo 2
 
-- participants
-- check number of commits during ...
-- nationalities
+## Possible next steps
 
-## Life Demo 2
-
+- looking forward for STY module release
+- DEA module 
 
 ## Conclusion
 
-- we know how our pipelines are perform commpared to others
+- we know how our pipelines perform compared to others
 - update LFQ pipeline
 
 - how much you can do with 16K only
 
-## Possible next steps
-
-- looking forward for STY module
-- DEA module 
 
 ## Thank you
 
-- Robin, Maire, Carlin EuBIC-MS
+- Robin, Marie, Carlin EuBIC-MS
 - M, the 2Ladies - Pasteur
 - 
 
@@ -125,5 +251,7 @@ some statistics
 
 ## Backup
 
-in case something goes wrong with the real proteoBench deploy
+in case something goes wrong with the real ProteoBench deploy
 https://proteobench.fgcz.uzh.ch
+
+
