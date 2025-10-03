@@ -1,0 +1,129 @@
+---
+title: "C4L proteoBench Challenge"
+subtitle: ""
+author: An Stas | Mariette MATONDO | Christian Panse
+date: now
+format:
+  revealjs:
+    slide-number: true
+    embed-resources: true
+    preview-links: auto
+    logo: fgcz-cropped.svg
+    css: styles.css
+    footer: <https://fgcz.ch>
+    title-slide-attributes:
+      data-background-size: cover
+      data-background-color: "#43464B"
+---
+
+# Past
+
+## Imagine ...
+
+left show plot with single dot on  id ~ error - with one dot
+right Garey and Johnson 2
+
+## Would it be nice ...
+
+left plot id ~ error - with all dots
+right Garey and Johnson 3
+
+## Proteobench
+
+show old plot if module, from a presentation
+
+## Life Demo 2
+
+- show download page
+- "anlalyse data"
+
+## Goals
+
+stimmulate MS community for benchmark using 
+
+utilize proteoBench community
+
+contributing to proteoBench community requesting supporting more modules .... 
+
+## Timeline
+- June 2024 notification
+- 2024 November C4L meeting Zurich  - meassure new samples: ASTRAL, BrukerUltraflex
+- develop new modules for DIA
+- 2025 May  hackathon
+- 2025 June - EuPA (picture from Marie)
+- 2025 HUPO
+
+## proteobench c4l challenge
+
+- ask for 20KEUR
+- got 16KEUR
+...
+
+
+# What has been done?
+
+## Promises
+
+- join the EuBIC-MS proteobench community
+- 2x eight dots for DIA DDA
+- ... 
+- EUPA
+- HUPO Poster BioInf Hub session
+
+
+## not Promises
+
+left right (C4L contrib)
+- ASTRAL data
+- ULTRA data
+
+- modules
+ - DIA QEx
+ - ASTRAL DIA
+ - DIA PASEF
+- C4L co-authors on the paper
+- proteoBench workshop on BPA (Belgian Proteomics Ass)
+
+# Hackathon
+
+## Hackathon participation
+
+some statistics
+
+- participants
+- check number of commits during ...
+- nationalities
+
+## Life Demo 2
+
+
+## Conclusion
+
+- we know how our pipelines are perform commpared to others
+- update LFQ pipeline
+
+- how much you can do with 16K only
+
+## Possible next steps
+
+- looking forward for STY module
+- DEA module 
+
+## Thank you
+
+- Robin, Maire, Carlin EuBIC-MS
+- M, the 2Ladies - Pasteur
+- 
+
+## Future
+
+- new modules, e.g., IMMUNO - peptidomics
+- metaproteomics
+- limit proteolysis
+- ...
+- paper
+
+## Backup
+
+in case something goes wrong with the real proteoBench deploy
+https://proteobench.fgcz.uzh.ch
