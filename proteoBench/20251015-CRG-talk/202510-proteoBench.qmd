@@ -9,7 +9,7 @@ format:
     embed-resources: true
     preview-links: auto
     logo: https://fgcz-ms.uzh.ch/~cpanse/ProteoBenchChallenge/core4life_small.png
-    footer: ProteoBench challenge
+    footer: https://fgcz-ms.uzh.ch/~cpanse/ProteoBenchChallenge/202510-proteoBench.html
     title-slide-attributes:
       data-background-size: cover
 ---
@@ -69,10 +69,11 @@ Imagine there would an open and collaborative platform for community-curated ben
 source: ProteoBench | Garey and Johnson, Computers and Intractability: A Guide to the Theory of NP-Completeness , 1979
 :::
 
-## ProteoBench
+## How does it work?
 ![](https://fgcz-ms.uzh.ch/~cpanse/ProteoBenchChallenge/__Screenshot_2024-04-18_at_13.49.19.jpg)
+
 ::: footer
-2024-04-18_at_13.49.19
+2024-04-18 13:49:19
 :::
 
 ## Life Demo 2
