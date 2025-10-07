@@ -20,6 +20,11 @@ format:
 ProteoBench
 :::
 
+::: {.notes}
+One day your boss calls you in her office. You certainly don’t want to return to her office an report. 
+:::
+
+
 ## ...
 
 ::: {.columns}
@@ -37,6 +42,7 @@ ProteoBench
 ''I can’t quantify more proteins, I guess I’m just too dumb.''
 
 ::: {.notes}
+To avoid damage to your reputation it would be much better if you could  prove that it is inherently intractable to quantify more proteins. 
 :::
 
 ## ...
@@ -85,13 +91,16 @@ source: ProteoBench | Garey and Johnson, Computers and Intractability: A Guide t
 - show download page
 - "analyse data"
 
-## Goals
+## Expected impact
 
-- stimulate proteomics community for using benchmark 
-
-- utilize ProteoBench community
-
-- contributing to ProteoBench community requesting supporting more modules .... 
+* Stimulate proteomics community for using benchmark 
+* Increase C4L unity- all C4L prx groups are incorporated and will use the same data.
+* Increase transparency and reveal unexpected differences
+* Improve quality of service
+* Keep up with new data analysis tools (inspired by new new workflows in ProteoBench)
+* Bridging EuBIC-MS and C4L efforts ensuring the core facility perspective
+* Increase visibility, e.g., poster | paper | talk using c4l affiliation or web page
+* contributing to ProteoBench community requesting supporting more modules .... 
 
 # Timeline
 
@@ -156,6 +165,7 @@ for free
 :::
 :::
 :::
+
 
 
 # Hackathon statistics
@@ -225,19 +235,19 @@ cp@xerxes:~/src/github.com/ProteoBench/ProteoBench/ > git log|grep Date| awk '{p
    4 Jan 2023
 ```
 
-# Life Demo 2
+## How we spent the money?
 
 ## Possible next steps
 
-- looking forward for STY module release
+- Looking forward for STY module release
 - DEA module 
 
 ## Conclusion
 
-- we know how our pipelines perform compared to others
-- update LFQ pipeline
+- We know how our pipelines perform compared to others
+- Update LFQ pipeline
 
-- how much you can do with 16K only
+- How much you can do with 16K only
 
 
 ## Thank you

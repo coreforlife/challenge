@@ -11,6 +11,8 @@ QUARTO = quarto
 main: 202510-proteoBench.html
 	open $<
 
+deploy: 202510-proteoBench.html
+	scp $< cpanse@fgcz-r-035:~/WWW/ProteoBenchChallenge 
 .qmd.html:
 	$(QUARTO) render $<
 
