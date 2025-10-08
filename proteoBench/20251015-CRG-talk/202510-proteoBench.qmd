@@ -100,7 +100,7 @@ source: https://proteobench.readthedocs.io
 
 ![](https://fgcz-ms.uzh.ch/~cpanse/ProteoBenchChallenge/pipeline.jpg)
 
-1. Choose a module to benchmark your proteomics data analysis workflow
+1. Choose a module (test case) to benchmark your proteomics data analysis workflow
 
 2. Download the input data from the module page
 
@@ -114,14 +114,10 @@ source: https://proteobench.readthedocs.io
 # Video Demo
 
 
-
-
-
-
 ## Expected impact {.smaller}
 
-* Stimulate proteomics community for using benchmark 
-* Increase C4L unity- all C4L prx groups are incorporated and will use the same data.
+* Stimulate proteomics community for using benchmark  (16K)
+* Increase C4L unity- all C4L prx groups are incorporated and will use the same data
 * Increase transparency and reveal unexpected differences
 * Improve quality of service
 * Keep up with new data analysis tools (inspired by new new workflows in ProteoBench)
@@ -188,8 +184,6 @@ agree to meassure to samples on two new instruments: Astral (CRG) and Bruker Ult
 ## Zurich C4L: Brainstorming for planning the hackathon 
 
 ![](https://fgcz-ms.uzh.ch/~cpanse/ProteoBenchChallenge/WEW_IMG_7756.jpg)
-
-
 
 
 ## 2025-05 Hackathon 
@@ -318,10 +312,10 @@ Promised
 
 ## Conclusion
 
-- We know how our pipelines perform compared to others
-- Update LFQ pipeline
+* We know how our pipelines perform compared to others
+* Update LFQ pipeline
 
-- How much you can do with 16K only
+* 16K EUR in funding catalyzed substantial in-kind contributions (time) from the broader community beyond C4L
 
 
 ## Thank you
