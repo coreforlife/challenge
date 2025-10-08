@@ -85,10 +85,16 @@ source: ProteoBench | Garey and Johnson, Computers and Intractability: A Guide t
 :::
 
 
-## ProteoBench
+## ProteoBench {.smaller}
 
+::: {.columns}
+::: {.column width="30%"}
 open and collaborative platform for community-curated benchmarks for proteomics data analysis pipelines.
+:::
+::: {.column width="70%"}
 ![](https://fgcz-ms.uzh.ch/~cpanse/ProteoBenchChallenge/network.jpg)
+:::
+:::
 
 ::: footer
 source: https://proteobench.readthedocs.io
@@ -111,50 +117,51 @@ source: https://proteobench.readthedocs.io
 5. Compare your workflow run with validated benchmark runs
 
 
-# Video Demo
+# ProteoBench Live Demo
 
 
 ## Expected impact {.smaller}
 
-* Stimulate proteomics community for using benchmark  (16K)
-* Increase C4L unity- all C4L prx groups are incorporated and will use the same data
-* Increase transparency and reveal unexpected differences
-* Improve quality of service
+* Stimulate proteomics community for using benchmark
+* Unify C4L groups with shared benchmark data
+* Reveal hidden pipeline performance differences
 * Keep up with new data analysis tools (inspired by new new workflows in ProteoBench)
 * Bridging EuBIC-MS and C4L efforts ensuring the core facility perspective
-* Increase visibility, e.g., poster | paper | talk using c4l affiliation or web page
-* contributing to ProteoBench community requesting supporting more modules .... 
+* Boost C4L visibility (publications, talks, web)
+* Contributing to ProteoBench community requesting supporting more modules .... 
+* Improve quality of service
 
 # What has been done?
 
 ## Deliveries {.smaller}
 
 ::: {.columns } 
-::: {.column width="50%"}
+::: {.column width="45%"}
 Promised 
 
 * join the EuBIC-MS proteobench community
 * 2x eight dots for DIA DDA
+* host ProteoBench session
 * ... 
 * EuPA
 * HUPO Poster BioInf Hub session
 :::
-::: {.column width="50%"}
+::: {.column width="55%"}
 ::: {.incremental}
 
 **in kind contribution** by the community
 
 * new instrument data for benchmark samples
-  + ASTRAL data
-  + ULTRA data
+  + Orbitrao Astral
+  + Bruker Ultraflex
 
-* modules
+* new modules
   + two more DDA modules
   + DIA QExactive
   + DIA Orbitrap Astral
   + DIA PASEF
 
-* C4L co-authors on the paper
+* C4L co-authors on the manuscript
 * workshop on Belgian Proteomics association (BPA)
 :::
 :::
@@ -188,28 +195,40 @@ Promised
 
 ## 2024-06 acceptance notification
 
-- ask for 20KEUR
-- got 16KEUR
-
-## 2024-11 Kickoff presentation @ C4L meeting in Zurich
-
-TODO(cp): find picture of An
+- ask for 20K EUR
+- got 16K EUR
 
 ## 2024-11 Zurich C4L meeting
+
+Kickoff presentation by An
+
+## 2024-11 Zurich C4L meeting
+
+::: footer
+
+:::
 
 ![](https://fgcz-ms.uzh.ch/~cpanse/ProteoBenchChallenge/Tram_zurich.jpg)
 
 ::: footer
-agree to meassure to samples on two new instruments: Astral (CRG) and Bruker Ultraflex(FGCZ)
+agree to meassure to samples on two new instruments: Astral (CRG) and Bruker Ultraflex(FGCZ); 
 :::
 
 ## 2024-11 Zurich C4L meeting
 
 ![](https://fgcz-ms.uzh.ch/~cpanse/ProteoBenchChallenge/KS_IMG_7762.jpg)
 
-## Zurich C4L: Brainstorming for planning the hackathon 
+::: footer
+https://www.kafischnaps.ch/
+:::
+
+## 2024-11 Zurich C4L meeting
 
 ![](https://fgcz-ms.uzh.ch/~cpanse/ProteoBenchChallenge/WEW_IMG_7756.jpg)
+
+::: footer
+Brainstorming for planning the hackathon 
+:::
 
 
 ## 2025-05 Hackathon 
@@ -226,30 +245,33 @@ agree to meassure to samples on two new instruments: Astral (CRG) and Bruker Ult
 
 ## Participants statistics {.smaller}
 
-```{eval=FALSE}
-$ awk -F'.' '{print $NF}' < email.txt | sort | uniq -c
-   9 be
-   2 ch
-   3 de
-   3 dk
-   3 fr
+by countries
+```
+cat email.txt | awk -F'.' '{print $NF}' | sort | uniq -c | cat -n
+     1     9 be
+     2     2 ch
+     3     3 de
+     4     3 dk
+     5     3 fr
 ```
 
-```{eval=FALSE}
-$ sort inst.txt|uniq -c
-   1 CNRS - IPBS
-   1 CNRS pappso
-   1 DTU biosustain
-   2 FGCZ ETHZ|UZH
-   1 German Cancer Research Center (DKFZ)
-   1 Ghent University
-   1 Institut Pasteur
-   1 PCF @ EMBL Heidelberg
-   1 Ruhr University Bochum, Medical Bioinformatics
-   1 University of Antwerp
-   1 University of Copenhagen
-   1 University of Southern Denmark
-   7 VIB-UGent
+by institutions
+```
+cat inst.txt | sort | uniq -c | cat -n
+     1     1 CNRS - IPBS
+     2     1 CNRS pappso
+     3     1 DTU biosustain
+     4     2 FGCZ ETHZ|UZH
+     5     1 German Cancer Research Center (DKFZ)
+     6     1 Ghent University
+     7     1 Institut Pasteur
+     8     1 PCF @ EMBL Heidelberg
+     9     1 Ruhr University Bochum, Medical Bioinformatics
+    10     1 University of Antwerp
+    11     1 University of Copenhagen
+    12     1 University of Southern Denmark
+    13     7 VIB-UGent
+
 ```
 
 ## Git Analysis Overview                                                                                                    
@@ -260,36 +282,54 @@ $ sort inst.txt|uniq -c
 `git log --pretty=format:'%H|%an|%ae|%ad|%s' --date=iso --all`
 :::
 
+## 2025-05 Hackathon  {background="#000000"}
 
-## 2025-06 EuPA
+![](https://fgcz-ms.uzh.ch/~cpanse/ProteoBenchChallenge/An.jpg)
 
-![](https://fgcz-ms.uzh.ch/~cpanse/ProteoBenchChallenge/EuPA-Marie.jpg)
+::: footer
+https://www.linkedin.com/posts/an-staes-3a6281a_proteobench-activity-7331692720651984896-ASj2?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEImrMIBR7BxSr9qxk5nNZwxTqSxMaxhhsQ
+:::
 
+
+## 2025-06 EuPA {background-image="https://fgcz-ms.uzh.ch/~cpanse/ProteoBenchChallenge/EuPA-Marie.jpg" background="#000000"}
+
+::: footer
+CP
+:::
 
 ## 2025-11 HUPO
 
-BioInformatics HUB
+Next BioInformatics HUB
 
-## How we spent the money?
+## How did we spend the money?
 
-* hotel
-* dinner
+* Hotel: 11.4K EUR 
+* Hackaton dinner: 800 EUR
+* Hackaton lunches and coffee breaks (catering): 1.7K EUR
+* EuPA2025 registration An: 320 EUR
+* HUPO2025 registration Christian: 850 US$ 
+* ZymoBIOMICS sample resembling metaproteomics (as a sample for a proteobench module): 680 EUR
 
-## Possible next steps {.smaller}
+This totals 15.8K EUR :)
 
-::: {.incremental}
-soon:
+
+::: footer
+Money transfer handled through VIB - FGCZ couldn't open an account fast enough  
+:::
+
+## Soon on ProteoBench
 
 - Looking forward for STY module release
 - DEA module 
+- co-author ProteoBench manuscript (on the way to bioRxiv) 
 
-future:
+possible next steps:
 
+::: {.incremental}
 - new modules, e.g., IMMUNO - peptidomics
 - metaproteomics
 - limit proteolysis
-- ...
-- paper
+- ???
 :::
 
 ## Conclusion
