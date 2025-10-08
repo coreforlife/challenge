@@ -16,18 +16,27 @@ format:
 
 # Imagine
 
+![](https://fgcz-ms.uzh.ch/~cpanse/ProteoBenchChallenge/SP1.jpg)
+
 ::: footer
 ProteoBench
 :::
 
-## ...
+::: {.notes}
+There is a new software for analysing data 
+
+And the result is shown here: x-axis , y-axis
+
+
+One day your boss calls you in her office. You certainly don’t want to return to her office an report. 
+:::
+
+
+## .
 
 ::: {.columns}
 ::: {.column width="50%"}
 ![](https://fgcz-ms.uzh.ch/~cpanse/ProteoBenchChallenge/SP1.jpg)
-:::
-
-::: {.notes}
 :::
 
 ::: {.column width="50%"}
@@ -37,9 +46,10 @@ ProteoBench
 ''I can’t quantify more proteins, I guess I’m just too dumb.''
 
 ::: {.notes}
+To avoid damage to your reputation it would be much better if you could  prove that it is inherently intractable to quantify more proteins. 
 :::
 
-## ...
+## .
 
 ::: {.columns}
 ::: {.column width="50%"}
@@ -54,10 +64,11 @@ ProteoBench
 
 ::: {.notes}
 Unfort., proving inherent intractability can just as hard as finding a solution.
+
 Imagine there would an open and collaborative platform for community-curated benchmarks for proteomics data analysis pipelines.
 :::
 
-## ...
+## .
 
 ::: {.columns}
 ::: {.column width="50%"}
@@ -73,92 +84,119 @@ Imagine there would an open and collaborative platform for community-curated ben
 source: ProteoBench | Garey and Johnson, Computers and Intractability: A Guide to the Theory of NP-Completeness , 1979
 :::
 
-## How does it work?
+
+## ProteoBench
+
+open and collaborative platform for community-curated benchmarks for proteomics data analysis pipelines.
+![](https://fgcz-ms.uzh.ch/~cpanse/ProteoBenchChallenge/network.jpg)
+
+::: footer
+source: https://proteobench.readthedocs.io
+:::
+
+# How does it work?
+
+## ProteoBench in 5 steps
+
+![](https://fgcz-ms.uzh.ch/~cpanse/ProteoBenchChallenge/pipeline.jpg)
+
+1. Choose a module to benchmark your proteomics data analysis workflow
+
+2. Download the input data from the module page
+
+3. Run your workflow on the input data
+
+4. upload the results to ProteoBench
+
+5. Compare your workflow run with validated benchmark runs
+
+
+# Video Demo
+
+
+
+
+
+
+## Expected impact {.smaller}
+
+* Stimulate proteomics community for using benchmark 
+* Increase C4L unity- all C4L prx groups are incorporated and will use the same data.
+* Increase transparency and reveal unexpected differences
+* Improve quality of service
+* Keep up with new data analysis tools (inspired by new new workflows in ProteoBench)
+* Bridging EuBIC-MS and C4L efforts ensuring the core facility perspective
+* Increase visibility, e.g., poster | paper | talk using c4l affiliation or web page
+* contributing to ProteoBench community requesting supporting more modules .... 
+
+## Deliveries 
+
+* join the EuBIC-MS proteobench community
+* 2x eight dots for DIA DDA
+* ... 
+* EuPA - talk or poster
+* HUPO Poster BioInf Hub session
+
+TODO(cp): check the document
+
+# Timeline
+
+## 2024-03 Idea of challenge project
+
+![](https://fgcz-ms.uzh.ch/~cpanse/ProteoBenchChallenge/__Screenshot_2024-03-26_at_14.34.10.jpg)
+::: footer
+2024-03-26 14:34:10
+:::
+
+## 2024-04 Start 
+
 ![](https://fgcz-ms.uzh.ch/~cpanse/ProteoBenchChallenge/__Screenshot_2024-04-18_at_13.49.19.jpg)
 
 ::: footer
 2024-04-18 13:49:19
 :::
 
-## Life Demo 2
+## 2024-04 C4L presentation
 
-- show download page
-- "analyse data"
+![](https://fgcz-ms.uzh.ch/~cpanse/ProteoBenchChallenge/__Screenshot_2024-04-19_at_09.36.48.jpg)
 
-## Goals
+::: footer
+2024-04-19 09:36:48
+:::
 
-- stimulate proteomics community for using benchmark 
+## 2024-06 acceptance notification
 
-- utilize ProteoBench community
+- ask for 20KEUR
+- got 16KEUR
 
-- contributing to ProteoBench community requesting supporting more modules .... 
+## 2024-11 Kickoff presentation @ C4L meeting in Zurich
 
-# Timeline
+TODO(cp): find picture of An
 
-## Zurich C4L: Planning the hackathon 
-![](https://fgcz-ms.uzh.ch/~cpanse/ProteoBenchChallenge/WEW_IMG_7756.jpg)
+## 2024-11 Zurich C4L meeting: Tram heading to KafiSchnaps
 
-## Zurich C4L meeting: Tram heading to KafiSchnaps
+![](https://fgcz-ms.uzh.ch/~cpanse/ProteoBenchChallenge/Tram_zurich.jpg)
+
 ::: footer
 agree to meassure to samples on two new instruments: Astral (CRG) and Bruker Ultraflex(FGCZ)
 :::
 
-![](https://fgcz-ms.uzh.ch/~cpanse/ProteoBenchChallenge/Tram_zurich.jpg)
-
-## Zurich C4L meeting: @ KafiSchnaps
+## 2024-11 Zurich C4L meeting: @ KafiSchnaps
 
 ![](https://fgcz-ms.uzh.ch/~cpanse/ProteoBenchChallenge/KS_IMG_7762.jpg)
 
-## Timeline
-- June 2024 notification
-- 2024 November C4L meeting Zurich  - measure new samples: ASTRAL, BrukerUltraflex
-- develop new modules for DIA
-- 2025 May  hackathon
-- 2025 June - EuPA (picture from Marie)
-- 2025 HUPO
+## Zurich C4L: Brainstorming for planning the hackathon 
 
-## proteobench c4l challenge
-
-- ask for 20KEUR
-- got 16KEUR
-...
+![](https://fgcz-ms.uzh.ch/~cpanse/ProteoBenchChallenge/WEW_IMG_7756.jpg)
 
 
-# What has been done?
-
-## Deliveries {.smaller}
-
-::: {.columns } 
-::: {.column width="50%"}
-Promised 
-
-* join the EuBIC-MS proteobench community
-* 2x eight dots for DIA DDA
-* ... 
-* EuPA
-* HUPO Poster BioInf Hub session
-:::
-::: {.column width="50%"}
-::: {.incremental}
-for free
-
-* new instrument data for benchmark samples
-  + ASTRAL data
-  + ULTRA data
-
-* modules
-  + DIA QExactive
-  + DIA Orbitrap Astral
-  + DIA PASEF
-
-* C4L co-authors on the paper
-* workshop on Belgian Proteomics Ass(BPA)
-:::
-:::
-:::
 
 
-# Hackathon statistics
+## 2025-05 Hackathon 
+
+![](https://fgcz-ms.uzh.ch/~cpanse/ProteoBenchChallenge/hackathonEmail.jpg)
+![](https://fgcz-ms.uzh.ch/~cpanse/ProteoBenchChallenge/scedule.jpg)
+
 
 ## Participants
 
@@ -225,19 +263,65 @@ cp@xerxes:~/src/github.com/ProteoBench/ProteoBench/ > git log|grep Date| awk '{p
    4 Jan 2023
 ```
 
-# Life Demo 2
+
+## 2025-06 EuPA
+
+![](https://fgcz-ms.uzh.ch/~cpanse/ProteoBenchChallenge/EuPA-Marie.jpg)
+
+
+## 2025-11 HUPO
+
+BioInformatics HUB
+
+# What has been done?
+
+## Deliveries {.smaller}
+
+::: {.columns } 
+::: {.column width="50%"}
+Promised 
+
+* join the EuBIC-MS proteobench community
+* 2x eight dots for DIA DDA
+* ... 
+* EuPA
+* HUPO Poster BioInf Hub session
+:::
+::: {.column width="50%"}
+::: {.incremental}
+
+**in kind contribution** by the community
+
+* new instrument data for benchmark samples
+  + ASTRAL data
+  + ULTRA data
+
+* modules
+  + two more DDA modules
+  + DIA QExactive
+  + DIA Orbitrap Astral
+  + DIA PASEF
+
+* C4L co-authors on the paper
+* workshop on Belgian Proteomics association (BPA)
+:::
+:::
+:::
+
+
+## How we spent the money?
 
 ## Possible next steps
 
-- looking forward for STY module release
+- Looking forward for STY module release
 - DEA module 
 
 ## Conclusion
 
-- we know how our pipelines perform compared to others
-- update LFQ pipeline
+- We know how our pipelines perform compared to others
+- Update LFQ pipeline
 
-- how much you can do with 16K only
+- How much you can do with 16K only
 
 
 ## Thank you
