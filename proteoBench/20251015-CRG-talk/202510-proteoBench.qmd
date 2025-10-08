@@ -125,148 +125,6 @@ source: https://proteobench.readthedocs.io
 * Increase visibility, e.g., poster | paper | talk using c4l affiliation or web page
 * contributing to ProteoBench community requesting supporting more modules .... 
 
-## Deliveries 
-
-* join the EuBIC-MS proteobench community
-* 2x eight dots for DIA DDA
-* ... 
-* EuPA - talk or poster
-* HUPO Poster BioInf Hub session
-
-TODO(cp): check the document
-
-# Timeline
-
-## 2024-03 Idea of challenge project
-
-![](https://fgcz-ms.uzh.ch/~cpanse/ProteoBenchChallenge/__Screenshot_2024-03-26_at_14.34.10.jpg)
-::: footer
-2024-03-26 14:34:10
-:::
-
-## 2024-04 Start 
-
-![](https://fgcz-ms.uzh.ch/~cpanse/ProteoBenchChallenge/__Screenshot_2024-04-18_at_13.49.19.jpg)
-
-::: footer
-2024-04-18 13:49:19
-:::
-
-## 2024-04 C4L presentation
-
-![](https://fgcz-ms.uzh.ch/~cpanse/ProteoBenchChallenge/__Screenshot_2024-04-19_at_09.36.48.jpg)
-
-::: footer
-2024-04-19 09:36:48
-:::
-
-## 2024-06 acceptance notification
-
-- ask for 20KEUR
-- got 16KEUR
-
-## 2024-11 Kickoff presentation @ C4L meeting in Zurich
-
-TODO(cp): find picture of An
-
-## 2024-11 Zurich C4L meeting: Tram heading to KafiSchnaps
-
-![](https://fgcz-ms.uzh.ch/~cpanse/ProteoBenchChallenge/Tram_zurich.jpg)
-
-::: footer
-agree to meassure to samples on two new instruments: Astral (CRG) and Bruker Ultraflex(FGCZ)
-:::
-
-## 2024-11 Zurich C4L meeting: @ KafiSchnaps
-
-![](https://fgcz-ms.uzh.ch/~cpanse/ProteoBenchChallenge/KS_IMG_7762.jpg)
-
-## Zurich C4L: Brainstorming for planning the hackathon 
-
-![](https://fgcz-ms.uzh.ch/~cpanse/ProteoBenchChallenge/WEW_IMG_7756.jpg)
-
-
-## 2025-05 Hackathon 
-
-![](https://fgcz-ms.uzh.ch/~cpanse/ProteoBenchChallenge/hackathonEmail.jpg)
-![](https://fgcz-ms.uzh.ch/~cpanse/ProteoBenchChallenge/scedule.jpg)
-
-
-## Participants
-
-```{eval=FALSE}
-cp@xerxes:~/src/github/core4life/challenge/proteoBench/20251015-CRG-talk/ > awk -F'@' 'NR>1{print $NF}' < email.txt|sort|uniq -c|sort -gr
-   5 ugent.be
-   2 fgcz.ethz.ch
-   1 vib-ugent.be
-   1 universite-paris-saclay.fr
-   1 uantwerpen.be
-   1 rub.de
-   1 pasteur.fr
-   1 ipbs.fr
-   1 hotmail.com
-   1 embl.de
-   1 dtu.dk
-   1 dkfz-heidelberg.de
-   1 cpr.ku.dk
-   1 bmb.sdu.dk
-   1 UGent.be
-```
-
-## Number of commits during ...
-
-```{eval=FALSE}
-cp@xerxes:~/src/github.com/ProteoBench/ProteoBench/ > git log|grep Date| awk '{print $3" "$6}'|uniq -c                                                     
-   1 Oct 2025
-  33 Sep 2025
-  76 Aug 2025
- 146 Jul 2025
-  95 Jun 2025
- 336 May 2025
-  92 Apr 2025
-  94 Mar 2025
-   3 Feb 2025
-   7 Mar 2025
-  58 Feb 2025
- 144 Jan 2025
- 218 Dec 2024
- 112 Nov 2024
-  35 Oct 2024
- 272 Sep 2024
-  29 Aug 2024
-  58 Jul 2024
-  10 Jun 2024
-  53 May 2024
-  36 Apr 2024
-  75 Mar 2024
-  89 Feb 2024
-  96 Jan 2024
- 121 Dec 2023
-  73 Nov 2023
-  19 Oct 2023
- 115 Sep 2023
-   9 Aug 2023
-   4 Jul 2023
-   6 Jun 2023
-   1 Mar 2023
-   3 Jun 2023
-   1 May 2023
-  13 Apr 2023
-   4 Mar 2023
- 173 Feb 2023
-   4 Jan 2023
-```
-
-
-## 2025-06 EuPA
-
-![](https://fgcz-ms.uzh.ch/~cpanse/ProteoBenchChallenge/EuPA-Marie.jpg)
-
-
-## 2025-11 HUPO
-
-BioInformatics HUB
-
 # What has been done?
 
 ## Deliveries {.smaller}
@@ -303,38 +161,154 @@ Promised
 :::
 
 
+# Timeline
+
+## 2024-03 Idea of challenge project
+
+![](https://fgcz-ms.uzh.ch/~cpanse/ProteoBenchChallenge/__Screenshot_2024-03-26_at_14.34.10.jpg)
+::: footer
+2024-03-26 14:34:10
+:::
+
+## 2024-04 Status - only one module
+
+![](https://fgcz-ms.uzh.ch/~cpanse/ProteoBenchChallenge/__Screenshot_2024-04-18_at_13.49.19.jpg)
+
+::: footer
+2024-04-18 13:49:19
+:::
+
+## 2024-04 C4L presentation
+
+![](https://fgcz-ms.uzh.ch/~cpanse/ProteoBenchChallenge/__Screenshot_2024-04-19_at_09.36.48.jpg)
+
+::: footer
+2024-04-19 09:36:48
+:::
+
+## 2024-06 acceptance notification
+
+- ask for 20KEUR
+- got 16KEUR
+
+## 2024-11 Kickoff presentation @ C4L meeting in Zurich
+
+TODO(cp): find picture of An
+
+## 2024-11 Zurich C4L meeting
+
+![](https://fgcz-ms.uzh.ch/~cpanse/ProteoBenchChallenge/Tram_zurich.jpg)
+
+::: footer
+agree to meassure to samples on two new instruments: Astral (CRG) and Bruker Ultraflex(FGCZ)
+:::
+
+## 2024-11 Zurich C4L meeting
+
+![](https://fgcz-ms.uzh.ch/~cpanse/ProteoBenchChallenge/KS_IMG_7762.jpg)
+
+## Zurich C4L: Brainstorming for planning the hackathon 
+
+![](https://fgcz-ms.uzh.ch/~cpanse/ProteoBenchChallenge/WEW_IMG_7756.jpg)
+
+
+## 2025-05 Hackathon 
+
+::: {.columns}
+::: {.column width="50%"}
+![](https://fgcz-ms.uzh.ch/~cpanse/ProteoBenchChallenge/hackathonEmail.jpg)
+:::
+::: {.column width="50%"}
+![](https://fgcz-ms.uzh.ch/~cpanse/ProteoBenchChallenge/Scedule.jpg)
+:::
+:::
+
+
+## Participants statistics {.smaller}
+
+```{eval=FALSE}
+$ awk -F'.' '{print $NF}' < email.txt | sort | uniq -c
+   9 be
+   2 ch
+   3 de
+   3 dk
+   3 fr
+```
+
+```{eval=FALSE}
+$ sort inst.txt|uniq -c
+   1 CNRS - IPBS
+   1 CNRS pappso
+   1 DTU biosustain
+   2 FGCZ ETHZ|UZH
+   1 German Cancer Research Center (DKFZ)
+   1 Ghent University
+   1 Institut Pasteur
+   1 PCF @ EMBL Heidelberg
+   1 Ruhr University Bochum, Medical Bioinformatics
+   1 University of Antwerp
+   1 University of Copenhagen
+   1 University of Southern Denmark
+   7 VIB-UGent
+```
+
+## Git Analysis Overview                                                                                                    
+
+![](https://fgcz-ms.uzh.ch/~cpanse/ProteoBenchChallenge/git_commits_over_time.png)
+
+::: footer
+`git log --pretty=format:'%H|%an|%ae|%ad|%s' --date=iso --all`
+:::
+
+
+## 2025-06 EuPA
+
+![](https://fgcz-ms.uzh.ch/~cpanse/ProteoBenchChallenge/EuPA-Marie.jpg)
+
+
+## 2025-11 HUPO
+
+BioInformatics HUB
+
 ## How we spent the money?
 
-## Possible next steps
+* hotel
+* dinner
+
+## Possible next steps {.smaller}
+
+::: {.incremental}
+soon:
 
 - Looking forward for STY module release
 - DEA module 
 
-## Conclusion
-
-* We know how our pipelines perform compared to others
-* Update LFQ pipeline
-
-* 16K EUR in funding catalyzed substantial in-kind contributions (time) from the broader community beyond C4L
-
-
-## Thank you
-
-- Robin, Marie, Carlin EuBIC-MS
-- M, the 2Ladies - Pasteur
-- 
-
-## Future
+future:
 
 - new modules, e.g., IMMUNO - peptidomics
 - metaproteomics
 - limit proteolysis
 - ...
 - paper
+:::
 
-## Backup
+## Conclusion
 
-in case something goes wrong with the real ProteoBench deploy
-https://proteobench.fgcz.uzh.ch
+::: {.incremental}
+* We know how our pipelines perform compared to others
+* Update LFQ pipeline
+
+* 16K EUR in funding catalyzed substantial in-kind contributions (time) from the broader community beyond C4L
+:::
 
 
+## Thank you
+
+
+* @EuBIC-MS
+  + Robbin Bouwmeester
+  + Marie Locard-Paulet
+  + Caroline Jachmann 
+  + and all EuBIC-MS people
+
+* Chloe Frat and Virginie Portelette @pasteur.fr
